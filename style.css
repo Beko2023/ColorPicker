@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: "Inter";
+  background: black;
+}
+
+.container {
+  max-width: 500px;
+  height: 310px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+header {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+input,
+select,
+button {
+  background: white;
+  border: solid 1px #d1d5db;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+select {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+button {
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+
+button:active {
+  background-color: #d1d5db;
+}
+
+#display-scheme {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.color-box {
+  width: 100px;
+  height: 200px;
+  max-height: 500px;
+}
+
+h3 {
+  font-size: 10px;
+}
